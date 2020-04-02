@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: d6ba053e10539d746afe1616a2551e12
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: Object01
+  - first:
+      43: 4300002
+    second: Object015
+  - first:
+      43: 4300004
+    second: Merchant_body
+  - first:
+      43: 4300006
+    second: Object017
+  - first:
+      43: 4300008
+    second: Object018
+  - first:
+      43: 4300010
+    second: Object019
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #266
+    second: {fileID: 2100000, guid: 24318b9e635469743a9393ae2f2e930b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #267
+    second: {fileID: 2100000, guid: ad464337691faa843a3159e90f1bacde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #269
+    second: {fileID: 2100000, guid: 33fe0076a00c01543837d8e7fb0e33b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #272
+    second: {fileID: 2100000, guid: 9dcc93e81e0b7f04d9654a7edbacb1dc, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - e1787ce659ae2744599b2624b6a0ef34
+  - 97ca074d5ea524e4f8db518bd0a9813b
+  - 7d123e73d527c63469ff491b5181dfe6
+  - 7cfdc0b2d96ee9c469aa67ee9dad27d0
+  - 1b1ba3abc8af647429caf3eaaef04574
+  - 2aafa70b6e505bc478817f861bca943f
+  - 28c57e1ee1df4f44fac946cd58f48165
+  - 5b3618f8796f13340878e380d2294c83
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Merchant_female(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0000008980583, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Particle View 01 3
+      parentName: Merchant_female(Clone)
+      position: {x: -0.8047526, y: 0, z: -0.003837881}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Particle View 01 2
+      parentName: Merchant_female(Clone)
+      position: {x: 0.91522, y: 0.027692027, z: -0.029286861}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.589673, y: 0.589673, z: 0.589673}
+    - name: Particle View 01 1
+      parentName: Merchant_female(Clone)
+      position: {x: -0.15712364, y: 0, z: 0.0060056397}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Particle View 01
+      parentName: Merchant_female(Clone)
+      position: {x: 1.5628489, y: 0.027692031, z: -0.01944334}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.589673, y: 0.589673, z: 0.589673}
+    - name: Particle View 0ASD1
+      parentName: Merchant_female(Clone)
+      position: {x: -0.8047526, y: 0, z: -0.003837881}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Particle VieDSw 01
+      parentName: Merchant_female(Clone)
+      position: {x: 0.91522, y: 0.027692027, z: -0.029286861}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.589673, y: 0.589673, z: 0.589673}
+    - name: Particle VieADw 01
+      parentName: Merchant_female(Clone)
+      position: {x: -0.15712364, y: 0, z: 0.0060056397}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Particle VADSiew 01
+      parentName: Merchant_female(Clone)
+      position: {x: 1.5628489, y: 0.027692031, z: -0.01944334}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.589673, y: 0.589673, z: 0.589673}
+    - name: Object01
+      parentName: Merchant_female(Clone)
+      position: {x: -1.1844037e-10, y: 1.5634166, z: 0.08281636}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object015
+      parentName: Merchant_female(Clone)
+      position: {x: -0, y: 1.5347222, z: -0.045311265}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Merchant_body
+      parentName: Merchant_female(Clone)
+      position: {x: -0, y: 1.5347222, z: -0.046826757}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object016
+      parentName: Merchant_female(Clone)
+      position: {x: -0, y: 1.5347222, z: -0.046826757}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object017
+      parentName: Merchant_female(Clone)
+      position: {x: -0, y: 1.5347222, z: -0.046826757}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object018
+      parentName: Merchant_female(Clone)
+      position: {x: -1.1844037e-10, y: 1.5634166, z: 0.08281636}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object019
+      parentName: Merchant_female(Clone)
+      position: {x: -1.1844037e-10, y: 1.5634166, z: 0.08281636}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Merchant
+      parentName: Merchant_female(Clone)
+      position: {x: -0, y: 0.9687558, z: 0.013590996}
+      rotation: {x: -0.50000006, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Merchant Footsteps
+      parentName: Merchant
+      position: {x: -0, y: 0, z: -0.96209943}
+      rotation: {x: 0, y: 0, z: -0.7071063, w: 0.70710725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Merchant Pelvis
+      parentName: Merchant
+      position: {x: -0.0000000018048925, y: -0.0000000037252907, z: 0.030281067}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Merchant Spine
+      parentName: Merchant Pelvis
+      position: {x: -0.0774968, y: -0.00008079171, z: 0.00000010758478}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Merchant Spine1
+      parentName: Merchant Spine
+      position: {x: -0.10163795, y: -0.000083737374, z: -2.2830135e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Merchant Spine2
+      parentName: Merchant Spine1
+      position: {x: -0.105168454, y: -0.000091352464, z: -2.541492e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: L_chest
+      parentName: Merchant Spine2
+      position: {x: -0.059185486, y: -0.0008064651, z: 0.06602554}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.6248201, y: 2.3259673, z: 1.0000005}
+    - name: R_chest
+      parentName: Merchant Spine2
+      position: {x: -0.05918556, y: -0.0008061981, z: -0.06910293}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -0.62482005, y: -2.3259678, z: -1.0000006}
+    - name: Merchant Neck
+      parentName: Merchant Spine2
+      position: {x: -0.12295959, y: -0.0072876737, z: -0.000000006761693}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000007}
+    - name: Merchant L Clavicle
+      parentName: Merchant Neck
+      position: {x: 0.004779205, y: 0.008008051, z: 0.028801793}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000004}
+    - name: Merchant L UpperArm
+      parentName: Merchant L Clavicle
+      position: {x: -0.10697808, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999996, y: 1.0000004, z: 0.99999994}
+    - name: Merchant L Forearm
+      parentName: Merchant L UpperArm
+      position: {x: -0.20720527, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Merchant L Hand
+      parentName: Merchant L Forearm
+      position: {x: -0.23989105, y: -0.000000011920928, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Merchant R Clavicle
+      parentName: Merchant Neck
+      position: {x: 0.004779205, y: 0.008008213, z: -0.028801778}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000007, y: 0.99999994, z: 1.0000004}
+    - name: Merchant R UpperArm
+      parentName: Merchant R Clavicle
+      position: {x: -0.10697807, y: -0.000000038146972, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.9999997}
+    - name: Merchant R Forearm
+      parentName: Merchant R UpperArm
+      position: {x: -0.20720527, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999996, y: 0.99999994, z: 1}
+    - name: Merchant R Hand
+      parentName: Merchant R Forearm
+      position: {x: -0.23989098, y: -0.000000007152557, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Merchant Head
+      parentName: Merchant Neck
+      position: {x: -0.067600094, y: -0.000000009536743, z: -7.2759575e-14}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000011, y: 1.0000008, z: 1.0000007}
+    - name: Merchant HeadNub
+      parentName: Merchant Head
+      position: {x: -0.26054108, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: L_ear
+      parentName: Merchant Head
+      position: {x: -0.216147, y: -0.018709006, z: 0.070348665}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 3.5987651, z: 0.9999997}
+    - name: R_ear
+      parentName: Merchant Head
+      position: {x: -0.216147, y: -0.018708806, z: -0.07267058}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -0.9999996, y: -3.598766, z: -1.0000002}
+    - name: M_bag01
+      parentName: Merchant Spine2
+      position: {x: -0.12784393, y: -0.10465252, z: 0.00000015258775}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 0.99999976, z: 1.0000001}
+    - name: M_bag02
+      parentName: M_bag01
+      position: {x: -0.30000007, y: 0, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: M_bag_end
+      parentName: M_bag02
+      position: {x: -0.504082, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Merchant L Thigh
+      parentName: Merchant Spine
+      position: {x: 0.07741027, y: -0.0036617564, z: 0.080302924}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Merchant L Calf
+      parentName: Merchant L Thigh
+      position: {x: -0.37623844, y: 0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Merchant L Foot
+      parentName: Merchant L Calf
+      position: {x: -0.411454, y: 0, z: -0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 0.9999998}
+    - name: Merchant L Toe0
+      parentName: Merchant L Foot
+      position: {x: -0.18232974, y: 0.10904718, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Merchant L Toe0Nub
+      parentName: Merchant L Toe0
+      position: {x: -0.103939325, y: -5.9604643e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -0.99999994, y: -1, z: -0.99999994}
+    - name: Merchant R Thigh
+      parentName: Merchant Spine
+      position: {x: 0.07741027, y: -0.0036613129, z: -0.08030294}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Merchant R Calf
+      parentName: Merchant R Thigh
+      position: {x: -0.3762384, y: 0.000000019073486, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: Merchant R Foot
+      parentName: Merchant R Calf
+      position: {x: -0.41145405, y: 0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000005}
+    - name: Merchant R Toe0
+      parentName: Merchant R Foot
+      position: {x: -0.18232974, y: 0.10904718, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Merchant R Toe0Nub
+      parentName: Merchant R Toe0
+      position: {x: -0.103939325, y: -5.9604643e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Merchant Tail
+      parentName: Merchant Spine
+      position: {x: 0.05764923, y: -0.14229715, z: -0.00000031629932}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.9999999}
+    - name: Merchant Tail1
+      parentName: Merchant Tail
+      position: {x: -0.107037425, y: -0.00019332886, z: -5.3623805e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Merchant Tail2
+      parentName: Merchant Tail1
+      position: {x: -0.25375387, y: -0.00028526306, z: -7.913331e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Merchant TailNub
+      parentName: Merchant Tail2
+      position: {x: -0.4232645, y: 0, z: 1.4551915e-13}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
