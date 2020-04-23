@@ -4,13 +4,18 @@ using System.Collections.Generic;
 using PolygonTopDown;
 using UnityEngine;
 
-public class SettingsManager : MonoBehaviour
+namespace PolygonTopDown
 {
-   public static SettingsManager Instance;
-   [SerializeField] public List<Chunk> Chunks = null;
-
-   private void Awake()
+   public class SettingsManager : SingletonGameObject<SettingsManager>
    {
-      Instance = this;
+
+      [SerializeField] public List<Chunk> Chunks = null;
+      [SerializeField] public List<Enemy> Enemies = null;
+
+      protected override void Awake()
+      {
+         base.Awake();
+         
+      }
    }
 }

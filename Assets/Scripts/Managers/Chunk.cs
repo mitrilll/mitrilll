@@ -5,33 +5,43 @@ using PolygonTopDown;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class Chunk : MonoBehaviour
+namespace PolygonTopDown
 {
-    public event Action<Chunk> EventPlayerEntered;
-    [System.Serializable]
-    public class DockPointSettings
+    public class Chunk : MonoBehaviour
     {
-        [SerializeField] public Direction Direction = PolygonTopDown.Direction.North;
-        [SerializeField] public Transform Point = null;
+        public event Action<Chunk> EventPlayerEntered;
 
-    }
-    
-    public readonly  Dictionary<Direction, Chunk> NeighbourChunks = new Dictionary<Direction, Chunk>();
-    
-    [SerializeField] private List<DockPointSettings> _dockPointsSettings = null;
-
-   public Dictionary<Direction, Transform> DockPoints = new Dictionary<Direction, Transform>();
-
-    private void Awake()
-    {
-        foreach (var dockPointsSettings in _dockPointsSettings)
+        public readonly Dictionary<ChunkDockPoint, Chunk> NeighbourChunks = new Dictionary<ChunkDockPoint, Chunk>();
+        
+        public List<EnemySpawnPoint> EnemiesSpawnPoints
         {
-            DockPoints[dockPointsSettings.Direction] = dockPointsSettings.Point;
+            get { return _enemiesSpawnPoints; }
         }
-    }
+        
+        public List<BoxCollider> BoundingColliders
+        {
+            get { return _boundingColliders; }
+        }
+        
+        public List<ChunkDockPoint> DockPoints
+        {
+            get { return _dockPoints; }
+            
+        }
+        
+        [SerializeField] private List<ChunkDockPoint> _dockPoints = null;
+        [SerializeField] private List<EnemySpawnPoint> _enemiesSpawnPoints = null;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        EventPlayerEntered?.Invoke(this);
+        [SerializeField] private List<BoxCollider> _boundingColliders = null;
+        
+
+        
+        //public Dictionary<Direction, Transform> DockPoints = new Dictionary<Direction, Transform>();
+
+
+        private void OnTriggerEnter(Collider other)
+        {
+            EventPlayerEntered?.Invoke(this);
+        }
     }
 }
